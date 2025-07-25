@@ -1,0 +1,420 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.top-banner {
+  background-color: #6f3a57;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.top-banner a {
+  color: #fff;
+  text-decoration: underline;
+  margin-left: 5px;
+}
+
+.logo-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5%;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-size: 32px;
+  color: #6f3a57;
+  margin: 0;
+}
+
+.logo span {
+  font-family: 'Brush Script MT', cursive;
+  color: #a86c8c;
+}
+
+.main-nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #222;
+  font-size: 16px;
+}
+
+.main-nav a:hover {
+  color: #6f3a57;
+}
+
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f9f2f5;
+}
+
+.hero h2 {
+  font-size: 28px;
+  color: #111;
+}
+
+.hero h2 span {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 30px;
+  color: #6f3a57;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.category-card {
+  text-decoration: none;
+  background-color: #fff0f5;
+  color: #6f3a57;
+  border: 2px solid #a86c8c;
+  padding: 20px 40px;
+  font-size: 20px;
+  border-radius: 12px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.category-card:hover {
+  background-color: #6f3a57;
+  color: white;
+}
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+.top-banner {
+  background-color: #6f3a57;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.top-banner a {
+  color: #fff;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.logo-bar {
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+}
+
+.logo {
+  color: #6f3a57;
+  font-family: 'Georgia', serif;
+  font-size: 32px;
+  margin: 0;
+}
+
+.logo span {
+  font-style: italic;
+  color: #c08ea9;
+}
+
+.main-nav {
+  margin-top: 10px;
+}
+
+.main-nav a {
+  margin: 0 15px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main-nav a:hover {
+  color: #6f3a57;
+}
+
+.hero {
+  text-align: center;
+  margin: 40px auto;
+}
+
+.hero h2 {
+  font-size: 24px;
+  color: #6f3a57;
+}
+
+.hero span {
+  font-family: 'Cursive', sans-serif;
+  font-weight: normal;
+  color: #c08ea9;
+}
+
+.category-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+
+.category-card {
+  text-decoration: none;
+  width: 220px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s;
+}
+
+.category-card:hover {
+  transform: scale(1.05);
+}
+
+.category-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.category-card .label {
+  background-color: #ffc86b;
+  color: #6f3a57;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #f9f7f6;
+  color: #444;
+}
+
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.logo {
+  font-family: 'Georgia', serif;
+  font-size: 28px;
+  color: #79375f;
+  font-weight: bold;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #79375f;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+nav a.active {
+  border-bottom: 2px solid #e3a14f;
+  padding-bottom: 3px;
+}
+
+.section-intro {
+  text-align: center;
+  padding: 40px 20px 20px;
+}
+
+.page-title {
+  font-size: 48px;
+  color: #79375f;
+  margin-bottom: 10px;
+}
+
+.page-subtitle {
+  font-size: 20px;
+  color: #666;
+  max-width: 700px;
+  margin: auto;
+}
+
+.recipe-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 40px;
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: auto;
+}
+
+.recipe-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+  transition: transform 0.2s;
+  text-align: center;
+}
+
+.recipe-card:hover {
+  transform: scale(1.03);
+}
+
+.recipe-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.recipe-card h2 {
+  font-size: 22px;
+  margin: 15px 0 8px;
+  color: #2c2c2c;
+}
+
+.recipe-card h2 a {
+  text-decoration: none;
+  color: #79375f;
+}
+
+.recipe-card p {
+  font-size: 15px;
+  padding: 0 15px 20px;
+  color: #555;
+}
+body {
+  font-family: 'Georgia', serif;
+  color: #4a2c39;
+  margin: 0;
+  background: #f9f9f9;
+}
+
+.top-nav {
+  background-color: #753456;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.top-nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.recipe-page {
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  gap: 2rem;
+}
+
+.recipe-content {
+  flex: 3;
+}
+
+.recipe-content h1 {
+  font-size: 2.8rem;
+  color: #4a2c39;
+  margin-bottom: 0.5rem;
+}
+
+.stars {
+  font-size: 1.2rem;
+  color: #f4a623;
+  margin: 0.5rem 0;
+}
+
+.stars span {
+  color: #444;
+  font-size: 1rem;
+  margin-left: 10px;
+}
+
+.description {
+  font-style: italic;
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.jump-link {
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: #753456;
+  text-decoration: none;
+  background: #eee;
+  padding: 0.4rem 1rem;
+  border-radius: 5px;
+}
+
+.main-image {
+  width: 80%;       
+  max-width: 600px; 
+  max-height: 400px;  
+  width: auto; 
+  border-radius: 10px;
+  margin: 1.5rem 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+ul, ol {
+  padding-left: 1.5rem;
+}
+
+.nutrition-card {
+  flex: 1;
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  border-top: 6px solid #f4a623;
+}
+
+.nutrition-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #753456;
+}
+
+.nutrition-card table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.nutrition-card td {
+  padding: 0.5rem;
+  border-bottom: 1px solid #eee;
+  color: #555;
+}
+
+.nutrition-card td:first-child {
+  font-weight: bold;
+}
+

@@ -1,0 +1,78 @@
+<!-- chicken_biryani.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chicken Biryani Recipe</title>
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    body { font-family: 'Georgia', serif; margin: 0; background-color: #f8f7f4; }
+    nav { background-color: #6e3750; padding: 10px 20px; text-align: center; }
+    nav a { color: #fff; text-decoration: none; margin: 0 15px; font-weight: bold; font-size: 16px; }
+    .container { display: flex; flex-wrap: wrap; padding: 40px; gap: 40px; }
+    .left-content { flex: 2; min-width: 300px; }
+    .left-content img { width: 100%; max-width: 600px; border-radius: 10px; }
+    h1 { color: #3b0a2e; font-size: 42px; margin-bottom: 10px; }
+    .description { font-style: italic; color: #555; margin-bottom: 30px; font-size: 17px; line-height: 1.6; }
+    .ingredients, .steps { margin-top: 30px; }
+    .ingredients ul, .steps ol { line-height: 1.8; font-size: 16px; }
+    .right-content { flex: 1; min-width: 250px; background-color: #fff; border-radius: 10px; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); height: fit-content; }
+    .right-content h3 { color: #3b0a2e; font-size: 20px; margin-bottom: 10px; }
+    .nutrition-table { width: 100%; border-collapse: collapse; }
+    .nutrition-table td { padding: 8px; border-bottom: 1px solid #eee; font-size: 15px; }
+    .nutrition-table td:first-child { font-weight: bold; }
+    @media (max-width: 768px) { .container { flex-direction: column; } }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="../breakfast.html">Breakfast</a>
+    <a href="../lunch.html">Lunch</a>
+    <a href="../dinner.html">Dinner</a>
+    <a href="../beverages.html">Beverages</a>
+  </nav>
+  <div class="container">
+    <div class="left-content">
+      <h1>Chicken Biryani</h1>
+      <p class="description">Aromatic basmati rice cooked with marinated chicken, spices, and herbs. A royal treat packed with flavor and tradition.</p>
+      <img src="../images/main10.png" alt="Chicken Biryani">
+      <div class="ingredients">
+        <h2>Ingredients</h2>
+        <ul>
+          <li>1 kg chicken, marinated</li>
+          <li>2 cups basmati rice</li>
+          <li>2 onions, sliced</li>
+          <li>1 cup yogurt</li>
+          <li>Whole spices (bay leaf, cinnamon, cloves)</li>
+          <li>Fresh coriander and mint</li>
+          <li>Ghee and oil</li>
+          <li>Saffron milk</li>
+        </ul>
+      </div>
+      <div class="steps">
+        <h2>Instructions</h2>
+        <ol>
+          <li>Fry onions until golden and set aside.</li>
+          <li>Cook marinated chicken with spices until tender.</li>
+          <li>Parboil basmati rice with whole spices.</li>
+          <li>Layer rice and chicken in a pot with herbs and saffron milk.</li>
+          <li>Cover tightly and cook on low for 20 minutes.</li>
+          <li>Serve hot with raita or salad.</li>
+        </ol>
+      </div>
+    </div>
+    <div class="right-content">
+      <h3>Nutritional Info (Per Serving)</h3>
+      <table class="nutrition-table">
+        <tr><td>Calories</td><td>450 kcal</td></tr>
+        <tr><td>Carbs</td><td>50g</td></tr>
+        <tr><td>Protein</td><td>30g</td></tr>
+        <tr><td>Fat</td><td>18g</td></tr>
+        <tr><td>Fiber</td><td>2g</td></tr>
+        <tr><td>Sodium</td><td>500mg</td></tr>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

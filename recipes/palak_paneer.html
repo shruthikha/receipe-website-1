@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Palak Paneer Recipe</title>
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f7f4;
+    }
+
+    nav {
+      background-color: #6e3750;
+      padding: 10px 20px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 40px;
+      gap: 40px;
+    }
+
+    .left-content {
+      flex: 2;
+      min-width: 300px;
+    }
+
+    .left-content img {
+      width: 100%;
+      max-width: 600px;
+      border-radius: 10px;
+    }
+
+    h1 {
+      color: #3b0a2e;
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .description {
+      font-style: italic;
+      color: #555;
+      margin-bottom: 30px;
+      font-size: 17px;
+      line-height: 1.6;
+    }
+
+    .ingredients, .steps {
+      margin-top: 30px;
+    }
+
+    .ingredients ul,
+    .steps ol {
+      line-height: 1.8;
+      font-size: 16px;
+    }
+
+    .right-content {
+      flex: 1;
+      min-width: 250px;
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      height: fit-content;
+    }
+
+    .right-content h3 {
+      color: #3b0a2e;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .nutrition-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .nutrition-table td {
+      padding: 8px;
+      border-bottom: 1px solid #eee;
+      font-size: 15px;
+    }
+
+    .nutrition-table td:first-child {
+      font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="../breakfast.html">Breakfast</a>
+    <a href="../lunch.html">Lunch</a>
+    <a href="../dinner.html">Dinner</a>
+    <a href="../beverages.html">Beverages</a>
+  </nav>
+
+  <div class="container">
+    <!-- Left Section -->
+    <div class="left-content">
+      <h1>Palak Paneer</h1>
+      <p class="description">
+        A flavorful Indian vegetarian dish made with puréed spinach and paneer cubes cooked with spices. Creamy, nutritious, and delicious!
+      </p>
+      <img src="../images/main16.png" alt="Palak Paneer">
+
+      <!-- Ingredients -->
+      <div class="ingredients">
+        <h2>Ingredients</h2>
+        <ul>
+          <li>200g paneer (cubed)</li>
+          <li>250g spinach leaves (washed and blanched)</li>
+          <li>1 onion, chopped</li>
+          <li>1 tomato, pureed</li>
+          <li>1 tsp ginger garlic paste</li>
+          <li>1/2 tsp cumin seeds</li>
+          <li>1/2 tsp garam masala, salt, turmeric</li>
+        </ul>
+      </div>
+
+      <!-- Recipe Steps -->
+      <div class="steps">
+        <h2>Instructions</h2>
+        <ol>
+          <li>Blanch spinach, cool and blend to a puree.</li>
+          <li>Sauté cumin and onions until golden, add ginger garlic paste.</li>
+          <li>Add tomato puree and spices. Cook till oil separates.</li>
+          <li>Add spinach puree and paneer. Simmer for 5–10 minutes.</li>
+          <li>Finish with cream or butter (optional) and serve hot.</li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- Right Section -->
+    <div class="right-content">
+      <h3>Nutritional Info (Per Serving)</h3>
+      <table class="nutrition-table">
+        <tr><td>Calories</td><td>260 kcal</td></tr>
+        <tr><td>Protein</td><td>11g</td></tr>
+        <tr><td>Carbs</td><td>15g</td></tr>
+        <tr><td>Fat</td><td>18g</td></tr>
+        <tr><td>Fiber</td><td>4g</td></tr>
+        <tr><td>Sugar</td><td>3g</td></tr>
+      </table>
+    </div>
+  </div>
+
+</body>
+</html>

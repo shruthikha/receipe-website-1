@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rajma Chawal Recipe</title>
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    body { font-family: 'Georgia', serif; margin: 0; background-color: #f8f7f4; }
+    nav { background-color: #6e3750; padding: 10px 20px; text-align: center; }
+    nav a { color: #fff; text-decoration: none; margin: 0 15px; font-weight: bold; font-size: 16px; }
+    .container { display: flex; flex-wrap: wrap; padding: 40px; gap: 40px; }
+    .left-content { flex: 2; min-width: 300px; }
+    .left-content img { width: 100%; max-width: 600px; border-radius: 10px; }
+    h1 { color: #3b0a2e; font-size: 42px; margin-bottom: 10px; }
+    .description { font-style: italic; color: #555; margin-bottom: 30px; font-size: 17px; line-height: 1.6; }
+    .ingredients, .steps { margin-top: 30px; }
+    .ingredients ul, .steps ol { line-height: 1.8; font-size: 16px; }
+    .right-content { flex: 1; min-width: 250px; background-color: #fff; border-radius: 10px; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); height: fit-content; }
+    .right-content h3 { color: #3b0a2e; font-size: 20px; margin-bottom: 10px; }
+    .nutrition-table { width: 100%; border-collapse: collapse; }
+    .nutrition-table td { padding: 8px; border-bottom: 1px solid #eee; font-size: 15px; }
+    .nutrition-table td:first-child { font-weight: bold; }
+    @media (max-width: 768px) { .container { flex-direction: column; } }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="../breakfast.html">Breakfast</a>
+    <a href="../lunch.html">Lunch</a>
+    <a href="../dinner.html">Dinner</a>
+    <a href="../beverages.html">Beverages</a>
+  </nav>
+  <div class="container">
+    <div class="left-content">
+      <h1>Rajma Chawal</h1>
+      <p class="description">A hearty and comforting North Indian dish made with red kidney beans simmered in a spiced tomato gravy, served with steamed rice.</p>
+      <img src="../images/main11.png" alt="Rajma Chawal">
+      <div class="ingredients">
+        <h2>Ingredients</h2>
+        <ul>
+          <li>1 cup rajma (red kidney beans)</li>
+          <li>2 cups cooked rice</li>
+          <li>1 onion, finely chopped</li>
+          <li>2 tomatoes, pureed</li>
+          <li>1 tsp ginger-garlic paste</li>
+          <li>Spices: cumin, turmeric, chili powder, garam masala</li>
+          <li>Salt to taste</li>
+          <li>Fresh coriander for garnish</li>
+        </ul>
+      </div>
+      <div class="steps">
+        <h2>Instructions</h2>
+        <ol>
+          <li>Soak rajma overnight and pressure cook until soft.</li>
+          <li>In a pan, sauté onions and ginger-garlic paste until golden.</li>
+          <li>Add tomato puree and spices. Cook until oil separates.</li>
+          <li>Add cooked rajma and simmer for 20–25 minutes.</li>
+          <li>Garnish with coriander and serve hot with rice.</li>
+        </ol>
+      </div>
+    </div>
+    <div class="right-content">
+      <h3>Nutritional Info (Per Serving)</h3>
+      <table class="nutrition-table">
+        <tr><td>Calories</td><td>320 kcal</td></tr>
+        <tr><td>Carbs</td><td>50g</td></tr>
+        <tr><td>Protein</td><td>12g</td></tr>
+        <tr><td>Fat</td><td>6g</td></tr>
+        <tr><td>Fiber</td><td>8g</td></tr>
+        <tr><td>Sodium</td><td>400mg</td></tr>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

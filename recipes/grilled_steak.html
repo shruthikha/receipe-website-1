@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Grilled Steak Recipe</title>
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f7f4;
+    }
+
+    nav {
+      background-color: #6e3750;
+      padding: 10px 20px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 40px;
+      gap: 40px;
+    }
+
+    .left-content {
+      flex: 2;
+      min-width: 300px;
+    }
+
+    .left-content img {
+      width: 100%;
+      max-width: 600px;
+      border-radius: 10px;
+    }
+
+    h1 {
+      color: #3b0a2e;
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .description {
+      font-style: italic;
+      color: #555;
+      margin-bottom: 30px;
+      font-size: 17px;
+      line-height: 1.6;
+    }
+
+    .ingredients, .steps {
+      margin-top: 30px;
+    }
+
+    .ingredients ul,
+    .steps ol {
+      line-height: 1.8;
+      font-size: 16px;
+    }
+
+    .right-content {
+      flex: 1;
+      min-width: 250px;
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      height: fit-content;
+    }
+
+    .right-content h3 {
+      color: #3b0a2e;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .nutrition-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .nutrition-table td {
+      padding: 8px;
+      border-bottom: 1px solid #eee;
+      font-size: 15px;
+    }
+
+    .nutrition-table td:first-child {
+      font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="../breakfast.html">Breakfast</a>
+    <a href="../lunch.html">Lunch</a>
+    <a href="../dinner.html">Dinner</a>
+    <a href="../beverages.html">Beverages</a>
+  </nav>
+
+  <div class="container">
+    <!-- Left Section -->
+    <div class="left-content">
+      <h1>Grilled Steak</h1>
+      <p class="description">
+        A juicy, perfectly grilled steak seasoned with salt, pepper, and garlic – simple yet flavorful. Best enjoyed with veggies or mashed potatoes.
+      </p>
+      <img src="../images/main19.png" alt="Grilled Steak">
+
+      <!-- Ingredients -->
+      <div class="ingredients">
+        <h2>Ingredients</h2>
+        <ul>
+          <li>2 ribeye or sirloin steaks</li>
+          <li>Salt and freshly ground black pepper</li>
+          <li>2 garlic cloves, minced</li>
+          <li>1 tbsp olive oil</li>
+          <li>Fresh rosemary or thyme (optional)</li>
+        </ul>
+      </div>
+
+      <!-- Recipe Steps -->
+      <div class="steps">
+        <h2>Instructions</h2>
+        <ol>
+          <li>Season steaks with salt, pepper, garlic, and herbs. Let rest for 15 minutes.</li>
+          <li>Heat grill or skillet over high heat. Add oil.</li>
+          <li>Grill each side for 3–5 minutes depending on thickness and doneness.</li>
+          <li>Let the steak rest for 5 minutes before slicing and serving.</li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- Right Section -->
+    <div class="right-content">
+      <h3>Nutritional Info (Per Serving)</h3>
+      <table class="nutrition-table">
+        <tr><td>Calories</td><td>500 kcal</td></tr>
+        <tr><td>Protein</td><td>35g</td></tr>
+        <tr><td>Carbs</td><td>1g</td></tr>
+        <tr><td>Fat</td><td>38g</td></tr>
+        <tr><td>Sodium</td><td>380mg</td></tr>
+        <tr><td>Iron</td><td>18%</td></tr>
+      </table>
+    </div>
+  </div>
+
+</body>
+</html>

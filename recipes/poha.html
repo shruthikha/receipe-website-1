@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Poha Recipe</title>
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f7f4;
+    }
+
+    nav {
+      background-color: #6e3750;
+      padding: 10px 20px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 40px;
+      gap: 40px;
+    }
+
+    .left-content {
+      flex: 2;
+      min-width: 300px;
+    }
+
+    .left-content img {
+      width: 100%;
+      max-width: 600px;
+      border-radius: 10px;
+    }
+
+    h1 {
+      color: #3b0a2e;
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .stars {
+      color: #f5a623;
+      font-weight: bold;
+      margin: 10px 0;
+      font-size: 16px;
+    }
+
+    .description {
+      font-style: italic;
+      color: #555;
+      margin-bottom: 30px;
+      font-size: 17px;
+      line-height: 1.6;
+    }
+
+    .jump-link {
+      display: inline-block;
+      background-color: #f1e2d1;
+      color: #6e3750;
+      font-weight: bold;
+      padding: 10px 15px;
+      text-decoration: none;
+      margin-bottom: 20px;
+      border-radius: 6px;
+    }
+
+    .ingredients, .steps {
+      margin-top: 30px;
+    }
+
+    .ingredients ul,
+    .steps ol {
+      line-height: 1.8;
+      font-size: 16px;
+    }
+
+    .right-content {
+      flex: 1;
+      min-width: 250px;
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      height: fit-content;
+    }
+
+    .right-content h3 {
+      color: #3b0a2e;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .nutrition-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .nutrition-table td {
+      padding: 8px;
+      border-bottom: 1px solid #eee;
+      font-size: 15px;
+    }
+
+    .nutrition-table td:first-child {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="../breakfast.html">Breakfast</a>
+    <a href="../lunch.html">Lunch</a>
+    <a href="../dinner.html">Dinner</a>
+    <a href="../beverages.html">Beverages</a>
+  </nav>
+
+  <div class="container">
+    <div class="left-content">
+      <h1>Poha Recipe</h1>
+      
+      <p class="description">
+        Poha is a light and flavorful Indian breakfast made with flattened rice, mustard seeds, turmeric, green chilies, and fresh coriander. Perfect for a quick morning meal!
+      </p>
+      <img src="../images/mainimg2.png" alt="Poha">
+
+      <div class="ingredients" id="recipe">
+        <h2>Ingredients</h2>
+        <ul>
+          <li>1 cup flattened rice (poha)</li>
+          <li>1 tbsp oil</li>
+          <li>1/2 tsp mustard seeds</li>
+          <li>5-6 curry leaves</li>
+          <li>1 green chili, chopped</li>
+          <li>1/4 cup chopped onion</li>
+          <li>1/4 tsp turmeric powder</li>
+          <li>Salt to taste</li>
+          <li>1/2 lemon</li>
+          <li>Fresh coriander for garnish</li>
+        </ul>
+      </div>
+
+      <div class="steps">
+        <h2>Instructions</h2>
+        <ol>
+          <li>Rinse the poha in water and drain completely. Let it sit for 5 minutes.</li>
+          <li>Heat oil in a pan. Add mustard seeds and let them splutter.</li>
+          <li>Add curry leaves and green chilies, sauté for a few seconds.</li>
+          <li>Add chopped onions and cook till translucent.</li>
+          <li>Add turmeric and salt. Stir well.</li>
+          <li>Add the soaked poha and mix gently.</li>
+          <li>Cook on low heat for 2-3 minutes.</li>
+          <li>Turn off the heat, squeeze lemon juice, and garnish with coriander.</li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- Right Section -->
+    <div class="right-content">
+      <h3>Nutritional Info (Per Serving)</h3>
+      <table class="nutrition-table">
+        <tr>
+          <td>Calories</td>
+          <td>180 kcal</td>
+        </tr>
+        <tr>
+          <td>Carbs</td>
+          <td>28g</td>
+        </tr>
+        <tr>
+          <td>Protein</td>
+          <td>3g</td>
+        </tr>
+        <tr>
+          <td>Fat</td>
+          <td>5g</td>
+        </tr>
+        <tr>
+          <td>Fiber</td>
+          <td>2g</td>
+        </tr>
+        <tr>
+          <td>Sodium</td>
+          <td>240mg</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mango Lassi Recipe</title>
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    body { font-family: 'Georgia', serif; margin: 0; background-color: #f8f7f4; }
+    nav { background-color: #6e3750; padding: 10px 20px; text-align: center; }
+    nav a { color: #fff; text-decoration: none; margin: 0 15px; font-weight: bold; font-size: 16px; }
+    .container { display: flex; flex-wrap: wrap; padding: 40px; gap: 40px; }
+    .left-content { flex: 2; min-width: 300px; }
+    .left-content img { width: 100%; max-width: 600px; border-radius: 10px; }
+    h1 { color: #3b0a2e; font-size: 42px; margin-bottom: 10px; }
+    .description { font-style: italic; color: #555; margin-bottom: 30px; font-size: 17px; line-height: 1.6; }
+    .ingredients, .steps { margin-top: 30px; }
+    .ingredients ul, .steps ol { line-height: 1.8; font-size: 16px; }
+    .right-content { flex: 1; min-width: 250px; background-color: #fff; border-radius: 10px; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); height: fit-content; }
+    .right-content h3 { color: #3b0a2e; font-size: 20px; margin-bottom: 10px; }
+    .nutrition-table { width: 100%; border-collapse: collapse; }
+    .nutrition-table td { padding: 8px; border-bottom: 1px solid #eee; font-size: 15px; }
+    .nutrition-table td:first-child { font-weight: bold; }
+    @media (max-width: 768px) { .container { flex-direction: column; } }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="../breakfast.html">Breakfast</a>
+    <a href="../lunch.html">Lunch</a>
+    <a href="../dinner.html">Dinner</a>
+    <a href="../beverages.html">Beverages</a>
+  </nav>
+  <div class="container">
+    <div class="left-content">
+      <h1>Mango Lassi</h1>
+      <p class="description">A chilled, creamy mango yogurt drink perfect for beating the heat. Sweet, tangy, and absolutely delicious!</p>
+      <img src="../images/main21.png" alt="Mango Lassi">
+      <div class="ingredients">
+        <h2>Ingredients</h2>
+        <ul>
+          <li>1 cup ripe mango chunks</li>
+          <li>1 cup plain yogurt</li>
+          <li>1/2 cup milk</li>
+          <li>2 tsp sugar (or to taste)</li>
+          <li>1/8 tsp cardamom powder</li>
+          <li>Ice cubes (optional)</li>
+        </ul>
+      </div>
+      <div class="steps">
+        <h2>Instructions</h2>
+        <ol>
+          <li>Add mango, yogurt, milk, sugar, and cardamom into a blender.</li>
+          <li>Blend until smooth and creamy.</li>
+          <li>Add ice cubes if desired. Blend again briefly.</li>
+          <li>Pour into glasses and serve chilled.</li>
+        </ol>
+      </div>
+    </div>
+    <div class="right-content">
+      <h3>Nutritional Info (Per Glass)</h3>
+      <table class="nutrition-table">
+        <tr><td>Calories</td><td>150 kcal</td></tr>
+        <tr><td>Carbs</td><td>28g</td></tr>
+        <tr><td>Protein</td><td>4g</td></tr>
+        <tr><td>Fat</td><td>3g</td></tr>
+        <tr><td>Calcium</td><td>15%</td></tr>
+        <tr><td>Sugar</td><td>24g</td></tr>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
